@@ -1,0 +1,42 @@
+python --version  
+python -m venv env   
+env\Scripts\activate
+
+si no funciona  env\Scripts\activate
+en powershell como administrador ejecutar
+Set-ExecutionPolicy Unrestricted 
+dar permisos con S
+python.exe -m pip install --upgrade pip
+pip install nltk 
+pip install scikit-learn
+pip install flask
+
+crear un archivo requirements.txt
+cargar con las librerias archivo requirements 
+pip freeze > requirements.txt
+ 
+
+
+
+
+
+python -m venv env   
+env\Scripts\activate
+python.exe -m pip install --upgrade pip
+pip install nltk scikit-learn flask
+
+# Descargar los datos de NLTK necesarios (solo la primera vez)
+python nlkt.py 
+
+
+python app.py    
+
+
+prueba con openAi
+pip install openai
+pip install python-dotenv
+
+
+para Ai gratis
+pip install  transformers
+pip install torch torchvision torchaudio
